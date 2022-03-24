@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97f004bd-c777-464c-8d8a-7d8586c019a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/appConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/xml/XmlAppContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/singleton/SingletonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/singleton/SingletonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/beanfind/ApplicationContextExtendsFindTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/beanfind/ApplicationContextExtendsFindTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +42,8 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -96,7 +95,7 @@
       <recent name="hello.core.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.XmlAppContext.xmlAppContext">
+  <component name="RunManager" selected="JUnit.SingletonTest.singletonServiceTest">
     <configuration name="ApplicationContextExtendsFindTest.findAllBeanByObjectType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
@@ -129,33 +128,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationContextExtendsFindTest.findBeanByParentTypeBeanName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SingletonTest.pureContainer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.core.beanfind.*" />
+          <option name="PATTERN" value="hello.core.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hello.core.beanfind" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationContextExtendsFindTest" />
-      <option name="METHOD_NAME" value="findBeanByParentTypeBeanName" />
+      <option name="PACKAGE_NAME" value="hello.core.singleton" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.singleton.SingletonTest" />
+      <option name="METHOD_NAME" value="pureContainer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationContextExtendsFindTest.findBeanBySubType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SingletonTest.singletonServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.core.beanfind.*" />
+          <option name="PATTERN" value="hello.core.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hello.core.beanfind" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationContextExtendsFindTest" />
-      <option name="METHOD_NAME" value="findBeanBySubType" />
+      <option name="PACKAGE_NAME" value="hello.core.singleton" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.singleton.SingletonTest" />
+      <option name="METHOD_NAME" value="singletonServiceTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -186,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SingletonTest.singletonServiceTest" />
+        <item itemvalue="JUnit.SingletonTest.pureContainer" />
         <item itemvalue="JUnit.XmlAppContext.xmlAppContext" />
         <item itemvalue="JUnit.ApplicationContextExtendsFindTest.findAllBeanByObjectType" />
         <item itemvalue="JUnit.ApplicationContextExtendsFindTest.findAllBeanByParentType" />
-        <item itemvalue="JUnit.ApplicationContextExtendsFindTest.findBeanBySubType" />
-        <item itemvalue="JUnit.ApplicationContextExtendsFindTest.findBeanByParentTypeBeanName" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +208,7 @@
       <workItem from="1647444025808" duration="4180000" />
       <workItem from="1647608294293" duration="3678000" />
       <workItem from="1647775796586" duration="4165000" />
-      <workItem from="1647868874620" duration="2989000" />
+      <workItem from="1647868874620" duration="5660000" />
     </task>
     <servers />
   </component>
